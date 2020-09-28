@@ -1,1 +1,1 @@
-# shortest-path-algorithm-astar
+# Shortest Path Algorithm A\*

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="./main.js"></script>
+    <title>Document</title>
+    <style>
+      .create_walls {
+        background-color: #f02000;
+        color: white;
+        border: none;
+        padding: 12px 8px;
+        min-width: 120px;
+        border-radius: 4px;
+      }
+      .remove_walls {
+        background-color: #0040f0;
+        color: white;
+        border: none;
+        padding: 12px 8px;
+        min-width: 120px;
+        border-radius: 4px;
+      }
+      .start_search {
+        background-color: #00a040;
+        color: white;
+        border: none;
+        padding: 12px 8px;
+        min-width: 120px;
+        border-radius: 4px;
+      }
+      .create_walls:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 2px 1px #f02000;
+      }
+      .remove_walls:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 2px 1px #0040f0;
+      }
+      .start_search:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 2px 1px #00a040;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="create_walls" onClick="create_walls()">Create Walls</button><br /><br />
+    <button class="remove_walls" onClick="remove_walls()">Remove Walls</button><br /><br />
+    <button class="start_search" onClick="start_search()">Start A*</button>
+  </body>
+</html>
