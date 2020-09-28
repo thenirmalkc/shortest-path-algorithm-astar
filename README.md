@@ -1,7 +1,7 @@
 # Shortest Path Algorithm ( A\* )
 
 
-## Live Demo [Click Me !!](https://thenirmalkc.github.io/maze-generator/)
+## Live Demo [Click Me !!](https://thenirmalkc.github.io/shortest-path-algorithm-astar/)
 
 ![A*](screenshots/a*.png)
 
