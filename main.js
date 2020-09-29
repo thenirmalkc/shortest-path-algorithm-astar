@@ -77,7 +77,7 @@ function setup() {
 function draw() {
   if (!search) return;
   if (!openSet.length) return;
-  openSet.sort((x, y) => x.f < y.f);
+  openSet.sort((x, y) => y.f - x.f);
   let cell = openSet.pop();
   cell.visited = true;
   if (cell == end) {
